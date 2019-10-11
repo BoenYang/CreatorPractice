@@ -1,0 +1,25 @@
+{
+    "name": "custom-gizmo",
+    "version": "0.0.1",
+    "description": "The package template for getting started.",
+    "author": "Cocos Creator",
+    "main": "main.js",
+    "main-menu": {
+        "i18n:MAIN_MENU.package.title/custom-gizmo/open": {
+            "message": "custom-gizmo:open"
+        },
+        "i18n:MAIN_MENU.package.title/custom-gizmo/hello": {
+            "message": "custom-gizmo:say-hello"
+        }
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "custom-gizmo",
+        "width": 400,
+        "height": 300
+    },
+    "gizmos": {
+        "CameraController": "packages://custom-gizmo/CameraControllerEditor.js"
+    }
+}
